@@ -1,0 +1,16 @@
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SimpleApp.deps.json
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SimpleApp.runtimeconfig.json
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SimpleApp.runtimeconfig.dev.json
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SimpleApp.dll
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SimpleApp.pdb
+C:\KHAVNA\Project\SimpleApp\SimpleApp\obj\Debug\netcoreapp2.0\SimpleApp.csprojResolveAssemblyReference.cache
+C:\KHAVNA\Project\SimpleApp\SimpleApp\obj\Debug\netcoreapp2.0\SimpleApp.csproj.CoreCompileInputs.cache
+C:\KHAVNA\Project\SimpleApp\SimpleApp\obj\Debug\netcoreapp2.0\SimpleApp.AssemblyInfoInputs.cache
+C:\KHAVNA\Project\SimpleApp\SimpleApp\obj\Debug\netcoreapp2.0\SimpleApp.AssemblyInfo.cs
+C:\KHAVNA\Project\SimpleApp\SimpleApp\obj\Debug\netcoreapp2.0\SimpleApp.dll
+C:\KHAVNA\Project\SimpleApp\SimpleApp\obj\Debug\netcoreapp2.0\SimpleApp.pdb
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SampleApp.Core.dll
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\EntityFramework.dll
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SampleApp.Core.pdb
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\SampleApp.Core.dll.config
+C:\KHAVNA\Project\SimpleApp\SimpleApp\bin\Debug\netcoreapp2.0\EntityFramework.xml

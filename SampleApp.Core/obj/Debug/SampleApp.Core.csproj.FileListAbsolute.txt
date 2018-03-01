@@ -1,0 +1,12 @@
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\SampleApp.Core.dll.config
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\SampleApp.Core.dll
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\SampleApp.Core.pdb
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\Autofac.dll
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\EntityFramework.dll
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\Autofac.xml
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\EntityFramework.xml
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\obj\Debug\SampleApp.Core.dll
+C:\KHAVNA\Project\SimpleApp\SampleApp.Core\obj\Debug\SampleApp.Core.pdb
