@@ -5,7 +5,7 @@ using SampleApp.Core.Services;
 
 namespace SimpleApp.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     public class UsersController : Controller
     {

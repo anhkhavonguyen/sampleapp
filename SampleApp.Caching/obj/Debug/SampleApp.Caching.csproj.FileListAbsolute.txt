@@ -1,0 +1,6 @@
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Caching\bin\Debug\SampleApp.Caching.dll
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Caching\bin\Debug\SampleApp.Caching.pdb
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.csprojResolveAssemblyReference.cache
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.csproj.CoreCompileInputs.cache
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.dll
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.pdb

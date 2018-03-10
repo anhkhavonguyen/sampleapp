@@ -12586,8 +12586,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vnakha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\khavo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12596,20 +12595,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\KHAVNA\\Project\\SimpleApp\\SimpleApp.OAuth\\SimpleApp.OAuth.csproj",
+      "projectUniqueName": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp.OAuth\\SimpleApp.OAuth.csproj",
       "projectName": "SimpleApp.OAuth",
-      "projectPath": "C:\\KHAVNA\\Project\\SimpleApp\\SimpleApp.OAuth\\SimpleApp.OAuth.csproj",
-      "packagesPath": "C:\\Users\\vnakha\\.nuget\\packages\\",
-      "outputPath": "C:\\KHAVNA\\Project\\SimpleApp\\SimpleApp.OAuth\\obj\\",
+      "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp.OAuth\\SimpleApp.OAuth.csproj",
+      "packagesPath": "C:\\Users\\khavo\\.nuget\\packages\\",
+      "outputPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp.OAuth\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\vnakha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\khavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12632,18 +12629,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "IdentityServer4": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.1.2, )"
+            "version": "2.0.0",
+            "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "[2.0.5, )"
+            "version": "2.0.5"
           },
-          "Microsoft.NETCore.App": {
+          "IdentityServer4": {
             "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "2.1.2"
           }
         },
         "imports": [

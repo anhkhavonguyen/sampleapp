@@ -27,7 +27,9 @@
           "Autofac.Extensions.DependencyInjection": "4.2.1",
           "Microsoft.AspNetCore.All": "2.0.5",
           "Microsoft.NETCore.App": "2.0.0",
-          "SampleApp.Core": "1.0.0"
+          "SampleApp.Caching": "1.0.0",
+          "SampleApp.Core": "1.0.0",
+          "SampleApp.Logging": "1.0.0"
         },
         "runtime": {
           "SimpleApp.Api.dll": {}
@@ -3822,12 +3824,28 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "SampleApp.Caching/1.0.0": {
+        "runtime": {
+          "SampleApp.Caching.dll": {}
+        },
+        "compile": {
+          "SampleApp.Caching.dll": {}
+        }
+      },
       "SampleApp.Core/1.0.0": {
         "runtime": {
           "SampleApp.Core.dll": {}
         },
         "compile": {
           "SampleApp.Core.dll": {}
+        }
+      },
+      "SampleApp.Logging/1.0.0": {
+        "runtime": {
+          "SampleApp.Logging.dll": {}
+        },
+        "compile": {
+          "SampleApp.Logging.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.0.0": {
@@ -6030,7 +6048,17 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
+    "SampleApp.Caching/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SampleApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SampleApp.Logging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

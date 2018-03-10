@@ -10,3 +10,16 @@ C:\KHAVNA\Project\SimpleApp\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.x
 C:\KHAVNA\Project\SimpleApp\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache
 C:\KHAVNA\Project\SimpleApp\SampleApp.Core\obj\Debug\SampleApp.Core.dll
 C:\KHAVNA\Project\SimpleApp\SampleApp.Core\obj\Debug\SampleApp.Core.pdb
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\SampleApp.Core.dll.config
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\SampleApp.Core.dll
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\SampleApp.Core.pdb
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\Autofac.dll
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.dll
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\Autofac.xml
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.xml
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csprojResolveAssemblyReference.cache
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.dll
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.pdb

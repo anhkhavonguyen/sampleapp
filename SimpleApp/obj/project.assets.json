@@ -4774,6 +4774,15 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "SampleApp.Caching/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SampleApp.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SampleApp.Caching.dll": {}
+        }
+      },
       "SampleApp.Core/1.0.0": {
         "type": "project",
         "compile": {
@@ -4781,6 +4790,15 @@
         },
         "runtime": {
           "bin/placeholder/SampleApp.Core.dll": {}
+        }
+      },
+      "SampleApp.Logging/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SampleApp.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SampleApp.Logging.dll": {}
         }
       }
     }
@@ -12587,10 +12605,20 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "SampleApp.Caching/1.0.0": {
+      "type": "project",
+      "path": "../SampleApp.Caching/SampleApp.Caching.csproj",
+      "msbuildProject": "../SampleApp.Caching/SampleApp.Caching.csproj"
+    },
     "SampleApp.Core/1.0.0": {
       "type": "project",
       "path": "../SampleApp.Core/SampleApp.Core.csproj",
       "msbuildProject": "../SampleApp.Core/SampleApp.Core.csproj"
+    },
+    "SampleApp.Logging/1.0.0": {
+      "type": "project",
+      "path": "../SampleApp.Logging/SampleApp.Logging.csproj",
+      "msbuildProject": "../SampleApp.Logging/SampleApp.Logging.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12599,12 +12627,13 @@
       "Autofac.Extensions.DependencyInjection >= 4.2.1",
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0",
-      "SampleApp.Core >= 1.0.0"
+      "SampleApp.Caching >= 1.0.0",
+      "SampleApp.Core >= 1.0.0",
+      "SampleApp.Logging >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vnakha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\khavo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12613,20 +12642,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\KHAVNA\\Project\\SimpleApp\\SimpleApp\\SimpleApp.Api.csproj",
+      "projectUniqueName": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp\\SimpleApp.Api.csproj",
       "projectName": "SimpleApp.Api",
-      "projectPath": "C:\\KHAVNA\\Project\\SimpleApp\\SimpleApp\\SimpleApp.Api.csproj",
-      "packagesPath": "C:\\Users\\vnakha\\.nuget\\packages\\",
-      "outputPath": "C:\\KHAVNA\\Project\\SimpleApp\\SimpleApp\\obj\\",
+      "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp\\SimpleApp.Api.csproj",
+      "packagesPath": "C:\\Users\\khavo\\.nuget\\packages\\",
+      "outputPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\vnakha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\khavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12638,8 +12665,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\KHAVNA\\Project\\SimpleApp\\SampleApp.Core\\SampleApp.Core.csproj": {
-              "projectPath": "C:\\KHAVNA\\Project\\SimpleApp\\SampleApp.Core\\SampleApp.Core.csproj"
+            "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj": {
+              "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj"
+            },
+            "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Caching\\SampleApp.Caching.csproj": {
+              "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Caching\\SampleApp.Caching.csproj"
+            },
+            "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj": {
+              "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj"
             }
           }
         }
@@ -12653,22 +12686,22 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Autofac": {
-            "target": "Package",
-            "version": "[4.6.2, )"
-          },
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
-            "version": "[4.2.1, )"
-          },
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.5, )"
+            "version": "4.2.1"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.5"
+          },
+          "Autofac": {
+            "target": "Package",
+            "version": "4.6.2"
           }
         },
         "imports": [

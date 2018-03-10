@@ -13,7 +13,7 @@ namespace SampleApp.Core
         protected override void Load(ContainerBuilder builder)
         {
             base.Load(builder);
-
+            builder.RegisterGeneric(typeof(Repositories.Repository<>)).As(typeof(Repositories.IRepository<>)).SingleInstance();
             builder.RegisterType<UserService>().As<IUserService>().SingleInstance();
         }
     }
