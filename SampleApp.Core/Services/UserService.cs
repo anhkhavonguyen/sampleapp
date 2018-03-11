@@ -4,19 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SampleApp.Core.Messages;
+using SampleApp.Core.Repositories;
+using SampleApp.Core.DbContext;
 
 namespace SampleApp.Core.Services
 {
     public class UserService : IUserService
     {
-        public UserService()
+        private IUserRepository _userRepository;
+        public UserService(IUserRepository userRepository)
         {
-
+            _userRepository = userRepository;
         }
 
         public GetUsersResponse GetUsers()
         {
-            throw new NotImplementedException();
+            var users = _userRepository.GetUsers().ToList();
+            return new GetUsersResponse()
+            {
+                Users = users
+            };
         }
     }
 }

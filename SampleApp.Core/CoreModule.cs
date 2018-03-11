@@ -1,5 +1,8 @@
 ﻿using Autofac;
+using SampleApp.Core.DbContext;
+using SampleApp.Core.Repositories;
 using SampleApp.Core.Services;
+using SampleApp.Core.UnitOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +16,11 @@ namespace SampleApp.Core
         protected override void Load(ContainerBuilder builder)
         {
             base.Load(builder);
-            builder.RegisterGeneric(typeof(Repositories.Repository<>)).As(typeof(Repositories.IRepository<>)).SingleInstance();
-            builder.RegisterType<UserService>().As<IUserService>().SingleInstance();
+            builder.RegisterGeneric(typeof(Repositories.Repository<>)).As(typeof(Repositories.IRepository<>)).InstancePerLifetimeScope();
+            builder.RegisterType<UserRepository>().As<IUserRepository>().InstancePerLifetimeScope();
+            builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
+            //builder.RegisterType<SimpleAppContext>().As(typeof(ISimpleAppDbContext)).InstancePerLifetimeScope();
+            builder.RegisterType<UnitOfWork.UnitOfWork>().As(typeof(IUnitOfWork)).InstancePerRequest();
         }
     }
 }

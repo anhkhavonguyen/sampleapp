@@ -19,7 +19,7 @@ E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\Autofac.xml
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.xml
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.xml
-E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csprojResolveAssemblyReference.cache
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.dll
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.pdb
+E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csprojResolveAssemblyReference.cache
