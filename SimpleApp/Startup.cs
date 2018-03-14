@@ -28,7 +28,7 @@ namespace SimpleApp
             //Register Container builder using Autofac
             var builder = new ContainerBuilder();
             builder.RegisterModule<CoreModule>();
-            builder.RegisterModule<LoggingModule>();
+            //builder.RegisterModule<LoggingModule>();
 
             builder.Populate(services);
 

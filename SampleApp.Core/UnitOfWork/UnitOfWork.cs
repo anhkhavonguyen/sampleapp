@@ -1,4 +1,5 @@
 ﻿using SampleApp.Core.DbContext;
+using SampleApp.Core.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +10,24 @@ namespace SampleApp.Core.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private SimpleAppContext _simpleAppContext;
-
-        public UnitOfWork(SimpleAppContext simpleAppContext)
+        private SimpleAppContext _simpleAppContext = new SimpleAppContext();
+        private Repository<User> userRepository;
+        public UnitOfWork()
         {
-            _simpleAppContext = simpleAppContext;
         }
+
+        public IRepository<User> UserRepository
+        {
+            get
+            {
+                if (userRepository == null)
+                {
+                    userRepository = new Repository<User>(_simpleAppContext);
+                }
+                return userRepository;
+            }
+        }
+
         public int Commit()
         {
             return _simpleAppContext.SaveChanges();
@@ -36,6 +49,11 @@ namespace SampleApp.Core.UnitOfWork
                     _simpleAppContext = null;
                 }
             }
+        }
+
+        IRepository<User> IUnitOfWork.UserRepository<T>()
+        {
+            return UserRepository;
         }
     }
 }

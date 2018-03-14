@@ -6,20 +6,21 @@ using System.Threading.Tasks;
 using SampleApp.Core.Messages;
 using SampleApp.Core.Repositories;
 using SampleApp.Core.DbContext;
+using SampleApp.Core.UnitOfWork;
 
 namespace SampleApp.Core.Services
 {
     public class UserService : IUserService
     {
-        private IUserRepository _userRepository;
-        public UserService(IUserRepository userRepository)
+        private UnitOfWork.UnitOfWork _unitOfWork = null;
+        public UserService()
         {
-            _userRepository = userRepository;
+            _unitOfWork = new UnitOfWork.UnitOfWork();
         }
 
         public GetUsersResponse GetUsers()
         {
-            var users = _userRepository.GetUsers().ToList();
+            var users = _unitOfWork.UserRepository.GetAll().ToList();
             return new GetUsersResponse()
             {
                 Users = users

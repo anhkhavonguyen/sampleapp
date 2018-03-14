@@ -8,7 +8,7 @@ namespace SampleApp.Core.DbContext
     public partial class SimpleAppContext : DbContext, ISimpleAppDbContext
     {
         public SimpleAppContext()
-            : base("name=SimpleAppContext")
+            : base("data source=.;initial catalog=SimpleApp;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework")
         {
         }
 
