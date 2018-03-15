@@ -12,10 +12,10 @@ namespace SampleApp.Core.Services
 {
     public class UserService : IUserService
     {
-        private UnitOfWork.UnitOfWork _unitOfWork = null;
-        public UserService()
+        private UnitOfWork.IUnitOfWork _unitOfWork;
+        public UserService(UnitOfWork.IUnitOfWork unitOfWork)
         {
-            _unitOfWork = new UnitOfWork.UnitOfWork();
+            _unitOfWork = unitOfWork;
         }
 
         public GetUsersResponse GetUsers()

@@ -20,14 +20,3 @@ E:\WORKING\Coding\BackEnd\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.AssemblyInfo.cs
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.dll
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.pdb
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\bin\Debug\netcoreapp2.0\SimpleApp.OAuth.deps.json
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\bin\Debug\netcoreapp2.0\SimpleApp.OAuth.runtimeconfig.json
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\bin\Debug\netcoreapp2.0\SimpleApp.OAuth.runtimeconfig.dev.json
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\bin\Debug\netcoreapp2.0\SimpleApp.OAuth.dll
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\bin\Debug\netcoreapp2.0\SimpleApp.OAuth.pdb
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.csprojResolveAssemblyReference.cache
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.csproj.CoreCompileInputs.cache
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.AssemblyInfoInputs.cache
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.AssemblyInfo.cs
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.dll
-C:\KHAVNA\Project\SimpleAppRepo\SimpleApp.OAuth\obj\Debug\netcoreapp2.0\SimpleApp.OAuth.pdb

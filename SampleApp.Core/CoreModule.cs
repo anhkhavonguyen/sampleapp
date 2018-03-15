@@ -16,12 +16,9 @@ namespace SampleApp.Core
         protected override void Load(ContainerBuilder builder)
         {
             base.Load(builder);
-            //builder.RegisterType<SimpleAppContext>().InstancePerLifetimeScope();
             builder.RegisterGeneric(typeof(Repositories.Repository<>)).As(typeof(Repositories.IRepository<>)).InstancePerLifetimeScope();
-            //builder.RegisterType<UserRepository>().As<IUserRepository>().InstancePerLifetimeScope();
             builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
             builder.RegisterType<UnitOfWork.UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
-            //builder.RegisterType<SimpleAppContext>().As<ISimpleAppDbContext>().InstancePerRequest();
         }
     }
 }

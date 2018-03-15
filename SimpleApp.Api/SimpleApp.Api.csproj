@@ -28,6 +28,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SampleApp.Core\SampleApp.Core.csproj" />
+    <ProjectReference Include="..\SampleApp.Logging\SampleApp.Logging.csproj" />
   </ItemGroup>
 
 </Project>

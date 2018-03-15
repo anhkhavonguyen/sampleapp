@@ -2484,6 +2484,15 @@
         "runtime": {
           "bin/placeholder/SampleApp.Core.dll": {}
         }
+      },
+      "SampleApp.Logging/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SampleApp.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SampleApp.Logging.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.6.2/win7-x86": {
@@ -4827,6 +4836,15 @@
         },
         "runtime": {
           "bin/placeholder/SampleApp.Core.dll": {}
+        }
+      },
+      "SampleApp.Logging/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SampleApp.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SampleApp.Logging.dll": {}
         }
       }
     }
@@ -9262,6 +9280,11 @@
       "type": "project",
       "path": "../SampleApp.Core/SampleApp.Core.csproj",
       "msbuildProject": "../SampleApp.Core/SampleApp.Core.csproj"
+    },
+    "SampleApp.Logging/1.0.0": {
+      "type": "project",
+      "path": "../SampleApp.Logging/SampleApp.Logging.csproj",
+      "msbuildProject": "../SampleApp.Logging/SampleApp.Logging.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9277,7 +9300,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.1",
       "Microsoft.VisualStudio.Web.BrowserLink >= 2.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.2",
-      "SampleApp.Core >= 1.0.0"
+      "SampleApp.Core >= 1.0.0",
+      "SampleApp.Logging >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9318,6 +9342,9 @@
           "projectReferences": {
             "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj": {
               "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj"
+            },
+            "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj": {
+              "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj"
             }
           }
         }

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SampleApp.Core;
+using SampleApp.Logging;
 
 namespace SimpleApp.Api
 {
@@ -27,7 +28,7 @@ namespace SimpleApp.Api
             //Register Container builder using Autofac
             var builder = new ContainerBuilder();
             builder.RegisterModule<CoreModule>();
-            //builder.RegisterModule<LoggingModule>();
+            builder.RegisterModule<LoggingModule>();
 
             builder.Populate(services);
 

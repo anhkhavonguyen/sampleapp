@@ -12,6 +12,6 @@ namespace SampleApp.Core.UnitOfWork
     {
         int Commit();
 
-        IRepository<User> UserRepository<T>() where T : class;
+        IRepository<User> UserRepository { get; }
     }
 }

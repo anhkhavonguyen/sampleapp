@@ -22,7 +22,7 @@ namespace SimpleApp.Api.Controllers
 
         public GetUsersResponse Get()
         {
-            var result = _unitOfWork.UserRepository<User>().GetAll().ToList();
+            var result = _unitOfWork.UserRepository.GetAll().ToList();
             return new GetUsersResponse()
             {
                 Users = result

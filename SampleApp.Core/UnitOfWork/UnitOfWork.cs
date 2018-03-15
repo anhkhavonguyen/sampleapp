@@ -50,10 +50,5 @@ namespace SampleApp.Core.UnitOfWork
                 }
             }
         }
-
-        IRepository<User> IUnitOfWork.UserRepository<T>()
-        {
-            return UserRepository;
-        }
     }
 }
