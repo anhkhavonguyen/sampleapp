@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SampleApp.Core.DbContext;
 using SampleApp.Core.Messages;
+using SampleApp.Core.Services;
 using SampleApp.Core.UnitOfWork;
 
 namespace SimpleApp.Api.Controllers
@@ -14,19 +15,23 @@ namespace SimpleApp.Api.Controllers
     [Route("api/Users")]
     public class UsersController : Controller
     {
-        private IUnitOfWork _unitOfWork;
-        public UsersController(IUnitOfWork unitOfWork)
+        private IUserService _userService;
+        public UsersController(IUserService userService)
         {
-            _unitOfWork = unitOfWork;
+            _userService = userService;
         }
 
+        [HttpGet]
         public GetUsersResponse Get()
         {
-            var result = _unitOfWork.UserRepository.GetAll().ToList();
-            return new GetUsersResponse()
-            {
-                Users = result
-            };
+            return _userService.GetUsers();
+        }
+
+        [HttpPost]
+        public IActionResult Add([FromBody] AddUserRequest request)
+        {
+            _userService.Add(request);
+            return Ok();
         }
     }
 }

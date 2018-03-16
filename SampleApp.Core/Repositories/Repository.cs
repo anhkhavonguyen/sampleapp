@@ -23,5 +23,10 @@ namespace SampleApp.Core.Repositories
         {
             return _dbSet.AsEnumerable<T>();
         }
+
+        public void Add(T entity)
+        {
+            _dbSet.Add(entity);
+        }
     }
 }

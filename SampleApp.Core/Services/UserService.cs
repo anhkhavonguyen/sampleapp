@@ -18,6 +18,15 @@ namespace SampleApp.Core.Services
             _unitOfWork = unitOfWork;
         }
 
+        public void Add(AddUserRequest request)
+        {
+            var user = new User();
+            user.FirstName = request.FirstName;
+            user.LastName = request.LastName;
+
+            _unitOfWork.UserRepository.Add(user);
+        }
+
         public GetUsersResponse GetUsers()
         {
             var users = _unitOfWork.UserRepository.GetAll().ToList();

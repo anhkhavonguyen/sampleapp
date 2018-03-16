@@ -59,6 +59,7 @@
     <Compile Include="DbContext\ISimpleAppDbContext.cs" />
     <Compile Include="DbContext\SimpleAppContext.cs" />
     <Compile Include="Exceptions\BaseException.cs" />
+    <Compile Include="Messages\AddUserRequest.cs" />
     <Compile Include="Messages\BaseRequest.cs" />
     <Compile Include="Messages\BaseResponse.cs" />
     <Compile Include="Messages\GetUsersResponse.cs" />

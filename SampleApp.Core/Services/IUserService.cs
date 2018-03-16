@@ -10,5 +10,6 @@ namespace SampleApp.Core.Services
     public interface IUserService
     {
         GetUsersResponse GetUsers ();
+        void Add(AddUserRequest request);
     }
 }

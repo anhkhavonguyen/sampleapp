@@ -5,3 +5,11 @@ E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\bin\Debug\Autofac.xml
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CoreCompileInputs.cache
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.pdb
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.dll
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.pdb
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\Autofac.dll
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\Autofac.xml
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csprojResolveAssemblyReference.cache
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CoreCompileInputs.cache
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.pdb
