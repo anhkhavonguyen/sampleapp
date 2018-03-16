@@ -8,5 +8,9 @@ namespace SampleApp.Logging.Services
 {
     public abstract class BaseService
     {
+        public BaseService()
+        {
+
+        }
     }
 }

@@ -8,5 +8,9 @@ namespace SampleApp.Logging.Services
 {
     public class CoreLoggingService : BaseService, ILoggingService
     {
+        public CoreLoggingService()
+        {
+
+        }
     }
 }

@@ -59,10 +59,13 @@
     <Compile Include="DbContext\ISimpleAppDbContext.cs" />
     <Compile Include="DbContext\SimpleAppContext.cs" />
     <Compile Include="Exceptions\BaseException.cs" />
+    <Compile Include="Exceptions\BaseNotFoundException.cs" />
+    <Compile Include="Exceptions\UserNotFoundException.cs" />
     <Compile Include="Messages\AddUserRequest.cs" />
     <Compile Include="Messages\BaseRequest.cs" />
     <Compile Include="Messages\BaseResponse.cs" />
     <Compile Include="Messages\GetUsersResponse.cs" />
+    <Compile Include="Models\BaseProgramLog.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IRepository.cs" />

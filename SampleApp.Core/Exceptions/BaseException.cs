@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace SampleApp.Core.Exceptions
 {
-    public class BaseException : Exception
+    public abstract class BaseException : Exception
     {
+        public abstract string Key { get; }
+        public virtual string[] Values { get; set; }
+
+        protected BaseException()
+        {
+
+        }
+
+        protected BaseException(string[] value)
+        {
+
+        }
+
+        protected BaseException(string message, string[] values) : base(message)
+        {
+
+        }
     }
 }

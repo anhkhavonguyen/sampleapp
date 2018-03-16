@@ -9,3 +9,4 @@ C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\bin\Debug\SampleApp.Caching.pd
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.csproj.CoreCompileInputs.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.pdb
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.csprojResolveAssemblyReference.cache
