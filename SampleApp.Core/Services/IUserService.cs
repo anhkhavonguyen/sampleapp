@@ -1,4 +1,5 @@
-﻿using SampleApp.Core.Messages;
+﻿using SampleApp.Core.DbContext;
+using SampleApp.Core.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,7 @@ namespace SampleApp.Core.Services
     {
         GetUsersResponse GetUsers ();
         void Add(AddUserRequest request);
+        void Delete(User user);
+        void Edit(User user);
     }
 }

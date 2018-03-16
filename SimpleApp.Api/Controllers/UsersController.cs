@@ -33,5 +33,19 @@ namespace SimpleApp.Api.Controllers
             _userService.Add(request);
             return Ok();
         }
+
+        [HttpPost]
+        public IActionResult Edit(User user)
+        {
+            _userService.Edit(user);
+            return Ok();
+        }
+
+        [HttpPost]
+        public IActionResult Delete(User user)
+        {
+            _userService.Delete(user);
+            return Ok();
+        }
     }
 }

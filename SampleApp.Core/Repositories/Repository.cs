@@ -1,10 +1,7 @@
 ﻿using SampleApp.Core.DbContext;
-using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.Core.Repositories
 {
@@ -27,6 +24,21 @@ namespace SampleApp.Core.Repositories
         public void Add(T entity)
         {
             _dbSet.Add(entity);
+        }
+
+        public T GetById(int id)
+        {
+            return _dbSet.Find(id);
+        }
+
+        public void Edit(T entity)
+        {
+            _simpleAppContext.Entry(entity).State = EntityState.Modified;
+        }
+
+        public void Delete(T entity)
+        {
+            _simpleAppContext.Entry(entity).State = EntityState.Deleted;
         }
     }
 }

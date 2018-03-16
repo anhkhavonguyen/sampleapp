@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using SampleApp.Core.Messages;
-using SampleApp.Core.Repositories;
 using SampleApp.Core.DbContext;
-using SampleApp.Core.UnitOfWork;
 
 namespace SampleApp.Core.Services
 {
@@ -25,6 +19,16 @@ namespace SampleApp.Core.Services
             user.LastName = request.LastName;
 
             _unitOfWork.UserRepository.Add(user);
+        }
+
+        public void Delete(User user)
+        {
+            _unitOfWork.UserRepository.Delete(user);
+        }
+
+        public void Edit(User user)
+        {
+            _unitOfWork.UserRepository.Edit(user);
         }
 
         public GetUsersResponse GetUsers()

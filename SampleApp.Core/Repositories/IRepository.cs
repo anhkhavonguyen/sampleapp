@@ -10,5 +10,8 @@ namespace SampleApp.Core.Repositories
     {
         IEnumerable<T> GetAll();
         void Add(T entity);
+        T GetById(int id);
+        void Edit(T entity);
+        void Delete(T entity);
     }
 }
