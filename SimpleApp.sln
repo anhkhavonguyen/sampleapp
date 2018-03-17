@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Core", "SampleApp.Core\SampleApp.Core.csproj", "{F624E938-27BF-481E-B2A4-7A68F1015948}"
 EndProject
@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Logging", "Sample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Caching", "SampleApp.Caching\SampleApp.Caching.csproj", "{4B0C5714-DAA9-4EBC-BF4B-838091790B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp.Api", "SimpleApp.Api\SimpleApp.Api.csproj", "{60892445-1CA8-4C31-9054-0EF3D16DAEAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApp.Api", "SimpleApp.Api\SimpleApp.Api.csproj", "{60892445-1CA8-4C31-9054-0EF3D16DAEAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Client", "SampleApp.Client\SampleApp.Client.csproj", "{641EFA1F-A09E-43B5-A327-2E8EDC0FBBA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{60892445-1CA8-4C31-9054-0EF3D16DAEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60892445-1CA8-4C31-9054-0EF3D16DAEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60892445-1CA8-4C31-9054-0EF3D16DAEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641EFA1F-A09E-43B5-A327-2E8EDC0FBBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641EFA1F-A09E-43B5-A327-2E8EDC0FBBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641EFA1F-A09E-43B5-A327-2E8EDC0FBBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641EFA1F-A09E-43B5-A327-2E8EDC0FBBA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
