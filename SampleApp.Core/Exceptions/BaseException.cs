@@ -25,5 +25,10 @@ namespace SampleApp.Core.Exceptions
         {
 
         }
+
+        protected BaseException(string message) : base(message)
+        {
+
+        }
     }
 }

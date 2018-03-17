@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SampleApp.Logging.Messages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,11 @@ namespace SampleApp.Logging.Services
         public CoreLoggingService()
         {
 
+        }
+
+        public void LogCoreError(LogErrorRequest request)
+        {
+            base.LogError(request);
         }
     }
 }
