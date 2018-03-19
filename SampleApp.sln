@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Core", "SampleApp.Core\SampleApp.Core.csproj", "{F624E938-27BF-481E-B2A4-7A68F1015948}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.OAuth", "SimpleApp.OAuth\SampleApp.OAuth.csproj", "{649CD4B3-2C70-4CA6-A4BA-8E59BA748DCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.OAuth", "SampleApp.OAuth\SampleApp.OAuth.csproj", "{649CD4B3-2C70-4CA6-A4BA-8E59BA748DCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Logging", "SampleApp.Logging\SampleApp.Logging.csproj", "{A376FBEA-CFCC-4B1D-A334-18B6C0B40FBF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Caching", "SampleApp.Caching\SampleApp.Caching.csproj", "{4B0C5714-DAA9-4EBC-BF4B-838091790B36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Api", "SimpleApp.Api\SampleApp.Api.csproj", "{60892445-1CA8-4C31-9054-0EF3D16DAEAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Api", "SampleApp.Api\SampleApp.Api.csproj", "{60892445-1CA8-4C31-9054-0EF3D16DAEAC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Client", "SampleApp.Client\SampleApp.Client.csproj", "{641EFA1F-A09E-43B5-A327-2E8EDC0FBBA1}"
 EndProject
