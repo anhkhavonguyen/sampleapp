@@ -9321,9 +9321,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\SimpleApp.Api.csproj",
-      "projectName": "SimpleApp.Api",
-      "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\SimpleApp.Api.csproj",
+      "projectUniqueName": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\SampleApp.Api.csproj",
+      "projectName": "SampleApp.Api",
+      "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\SampleApp.Api.csproj",
       "packagesPath": "C:\\Users\\vnakha\\.nuget\\packages\\",
       "outputPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\obj\\",
       "projectStyle": "PackageReference",

@@ -9,7 +9,7 @@ using SampleApp.Core.Messages;
 using SampleApp.Core.Services;
 using SampleApp.Core.UnitOfWork;
 
-namespace SimpleApp.Api.Controllers
+namespace SampleApp.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/Users")]

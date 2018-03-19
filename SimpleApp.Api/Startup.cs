@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SampleApp.Core;
 using SampleApp.Logging;
 
-namespace SimpleApp.Api
+namespace SampleApp.Api
 {
     public class Startup
     {

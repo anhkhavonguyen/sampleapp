@@ -12596,9 +12596,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.OAuth\\SimpleApp.OAuth.csproj",
-      "projectName": "SimpleApp.OAuth",
-      "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.OAuth\\SimpleApp.OAuth.csproj",
+      "projectUniqueName": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.OAuth\\SampleApp.OAuth.csproj",
+      "projectName": "SampleApp.OAuth",
+      "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.OAuth\\SampleApp.OAuth.csproj",
       "packagesPath": "C:\\Users\\vnakha\\.nuget\\packages\\",
       "outputPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.OAuth\\obj\\",
       "projectStyle": "PackageReference",
