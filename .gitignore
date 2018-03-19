@@ -6,3 +6,7 @@ bin
 obj
 packages
 .vs/
+
+SampleApp.Client/dist/
+SampleApp.Caching/obj/Debug
+SimpleAppRepo/SimpleApp.OAuth/obj/Debug/netcoreapp2.0
