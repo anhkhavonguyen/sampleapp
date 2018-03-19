@@ -6062,7 +6062,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "CrxuR4ouAcgLQSYcZ/IWiEweRz1KlMgiUuAYzdcIY1vl6ZEUUeAqRFUFiHxb8+Sk0PT/qRZgB9IbuTHC+/ayaA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -6437,7 +6437,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "NtlURQXbgCMEK7v5seyrXvje/JZf5S4MrWLZLnXmPV4A5C7u0irVACkpbLt2c4d8C0Z0fFaFRNJaHgbmxCMvxw==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -7324,7 +7324,7 @@
       ]
     },
     "System.IO.Compression/4.3.0": {
-      "sha512": "YHndyoiV90iu4iKG115ibkhrG+S3jBm8Ap9OwoUAzO5oPDAWcr0SFwQFm0HjM8WkEZWo0zvLTyLmbvTkW1bXgg==",
+      "sha512": "tn3GGIR+cDEYmmZGMnNwiel/JUcOgxAyEXQYmwjKQR3HzyEaVXu172XJrWycU2SEo8xhBWG/z/+QyreQAXL+Jw==",
       "type": "package",
       "path": "system.io.compression/4.3.0",
       "files": [
@@ -8368,7 +8368,7 @@
       ]
     },
     "System.Security.Cryptography.Algorithms/4.3.0": {
-      "sha512": "W1kd2Y8mYSCgc3ULTAZ0hOP2dSdG5YauTb1089T0/kRcN2MpSAW1izOFROrJgxSlMn3ArsgHXagigyi+ibhevg==",
+      "sha512": "gqBUqGkUBj3TgpsuMQGHaejvGQ0Nx1YsKgB+QzED73NNC9430T/ojFPPEIyCWqdaNcZLlnO+i5w+OQ3JFJvR6Q==",
       "type": "package",
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
@@ -8473,7 +8473,7 @@
       ]
     },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
-      "sha512": "t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
+      "sha512": "LvpCGEeuwfuLau8hU43vTeLgBxedQwKD8Z+eOFm2t9eWPOFPrYmlHov8CHWfhxNqWVA9RspIVOlDJPz3Obj9Ig==",
       "type": "package",
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
@@ -8650,7 +8650,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.3.0": {
-      "sha512": "IRiEFUa5b/Gs5Egg8oqBVoywhtOeaO2KOx3j0RfcYY/raxqBuEK7NXRDgOwtYM8qbi+7S4RPXUbNt+ZxyY0/NQ==",
+      "sha512": "08t74+gDNxapfAiXcGUHxYh1aOeS4EeWFzf4LVtCqXd5SoFXOnxTKq6IpLbbor6s/irQHqLckecYs6pcyfmiFQ==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.3.0",
       "files": [
@@ -9019,7 +9019,7 @@
       ]
     },
     "System.ValueTuple/4.3.0": {
-      "sha512": "cNLEvBX3d6MMQRZe3SMFNukVbitDAEpVZO17qa0/2FHxZ7Y7PpFRpr6m2615XYM/tYYYf0B+WyHNujqIw8Luwg==",
+      "sha512": "/D3PFjeZA1+fnYOBHwgv41wGgRvb6+XRBX6+QKoGsQx7DSG+kzkFpDw5ExSpETbl37dY8AJCgeKtQUmAGMAvjA==",
       "type": "package",
       "path": "system.valuetuple/4.3.0",
       "files": [
@@ -9311,7 +9311,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\khavo\\.nuget\\packages\\": {},
+    "C:\\Users\\vnakha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -9320,18 +9321,20 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp.Api\\SimpleApp.Api.csproj",
+      "projectUniqueName": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\SimpleApp.Api.csproj",
       "projectName": "SimpleApp.Api",
-      "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp.Api\\SimpleApp.Api.csproj",
-      "packagesPath": "C:\\Users\\khavo\\.nuget\\packages\\",
-      "outputPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SimpleApp.Api\\obj\\",
+      "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\SimpleApp.Api.csproj",
+      "packagesPath": "C:\\Users\\vnakha\\.nuget\\packages\\",
+      "outputPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SimpleApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\khavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\vnakha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "net462"
@@ -9343,11 +9346,11 @@
       "frameworks": {
         "net462": {
           "projectReferences": {
-            "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj": {
-              "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj"
+            "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj": {
+              "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Core\\SampleApp.Core.csproj"
             },
-            "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj": {
-              "projectPath": "E:\\WORKING\\Coding\\BackEnd\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj"
+            "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj": {
+              "projectPath": "C:\\KHAVNA\\Project\\SimpleAppRepo\\SampleApp.Logging\\SampleApp.Logging.csproj"
             }
           }
         }
@@ -9361,49 +9364,49 @@
     "frameworks": {
       "net462": {
         "dependencies": {
-          "Microsoft.AspNetCore": {
+          "Autofac": {
             "target": "Package",
-            "version": "2.0.1"
-          },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "target": "Package",
-            "version": "2.0.1"
+            "version": "[4.6.2, )"
           },
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
-            "version": "4.2.1"
-          },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-            "target": "Package",
-            "version": "2.0.2"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "target": "Package",
-            "version": "2.0.1"
-          },
-          "Microsoft.VisualStudio.Web.BrowserLink": {
-            "target": "Package",
-            "version": "2.0.1"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "2.0.1"
-          },
-          "Microsoft.AspNetCore.Mvc": {
-            "target": "Package",
-            "version": "2.0.2"
-          },
-          "Microsoft.AspNetCore.StaticFiles": {
-            "target": "Package",
-            "version": "2.0.1"
+            "version": "[4.2.1, )"
           },
           "EntityFramework": {
             "target": "Package",
-            "version": "6.2.0"
+            "version": "[6.2.0, )"
           },
-          "Autofac": {
+          "Microsoft.AspNetCore": {
             "target": "Package",
-            "version": "4.6.2"
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Microsoft.AspNetCore.StaticFiles": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.VisualStudio.Web.BrowserLink": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[2.0.2, )"
           }
         }
       }
