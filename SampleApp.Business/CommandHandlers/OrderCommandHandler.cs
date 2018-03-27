@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Domains
+namespace SampleApp.Business.CommandHandlers
 {
-    public class Product
+    public class OrderCommandHandler
     {
     }
 }
