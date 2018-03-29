@@ -1,4 +1,5 @@
 ﻿using SampleApp.Business.CommandHandlers;
+using SampleApp.Ordering.Infrastructure.UnitOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,10 @@ namespace SampleApp.Ordering.CommandHandlers
 {
     public class OrderCommandHandler : IOrderCommandHandler
     {
+        private IUnitOfWork _unitOfWork;
+        public OrderCommandHandler(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
     }
 }
