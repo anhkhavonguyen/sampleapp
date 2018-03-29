@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Command
+namespace SampleApp.Ordering.Infrastructure.Repositories
 {
-    public class CreateOrderCommand
+    public interface IRepository
     {
     }
 }

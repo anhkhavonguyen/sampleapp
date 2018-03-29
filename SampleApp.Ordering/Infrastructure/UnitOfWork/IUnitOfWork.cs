@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Infrastructure.UnitOfWork
+namespace SampleApp.Ordering.Infrastructure.UnitOfWork
 {
-    public class UnitOfWork
+    public interface IUnitOfWork
     {
     }
 }

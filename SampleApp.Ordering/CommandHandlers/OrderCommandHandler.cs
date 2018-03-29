@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Infrastructure.Repositories
+namespace SampleApp.Ordering.CommandHandlers
 {
-    public interface IRepository
+    public class OrderCommandHandler
     {
     }
 }

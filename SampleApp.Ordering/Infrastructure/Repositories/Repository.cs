@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.DbContext
+namespace SampleApp.Ordering.Infrastructure.Repositories
 {
-    public class BusinessContext
+    public class Repository
     {
     }
 }

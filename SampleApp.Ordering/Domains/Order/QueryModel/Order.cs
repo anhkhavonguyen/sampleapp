@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.CommandHandlers
+namespace SampleApp.Ordering.Domains.Order.QueryModel
 {
-    public interface IOrderCommandHandler
+    public class Order
     {
     }
 }

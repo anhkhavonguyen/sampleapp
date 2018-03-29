@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Infrastructure.UnitOfWork
+namespace SampleApp.Ordering.CommandHandlers
 {
-    public interface IUnitOfWork
+    public interface IOrderCommandHandler
     {
     }
 }

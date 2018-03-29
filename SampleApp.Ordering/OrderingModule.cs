@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Infrastructure.Repositories
+namespace SampleApp.Ordering
 {
-    public class Repository
+    public class OrderingModule
     {
     }
 }

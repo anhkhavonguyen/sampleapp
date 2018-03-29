@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Domains.Order.QueryModel
+namespace SampleApp.Ordering.Services
 {
-    public class Order
+    public interface IOrderService
     {
     }
 }

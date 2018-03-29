@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.CommandHandlers
+namespace SampleApp.Ordering.DbContext
 {
-    public class OrderCommandHandler
+    public class OrderingContext
     {
     }
 }

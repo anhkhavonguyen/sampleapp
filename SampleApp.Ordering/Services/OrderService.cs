@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Services
+namespace SampleApp.Ordering.Services
 {
     public class OrderService
     {

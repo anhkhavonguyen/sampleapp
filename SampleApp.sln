@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Api", "SampleApp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Client", "SampleApp.Client\SampleApp.Client.csproj", "{641EFA1F-A09E-43B5-A327-2E8EDC0FBBA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Business", "SampleApp.Business\SampleApp.Business.csproj", "{A6B9A094-6A04-4B8F-84A7-F7C4130CF72F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Ordering", "SampleApp.Ordering\SampleApp.Ordering.csproj", "{A6B9A094-6A04-4B8F-84A7-F7C4130CF72F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
