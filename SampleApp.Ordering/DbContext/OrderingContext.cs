@@ -1,6 +1,4 @@
-﻿using SampleApp.Business.DbContext;
-using SampleApp.Business.Domains.Order;
-using SampleApp.Ordering.Domains.Order.QueryModel;
+﻿using SampleApp.Ordering.Domains.Order;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 

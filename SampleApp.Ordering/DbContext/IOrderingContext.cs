@@ -1,7 +1,7 @@
-﻿using SampleApp.Business.Domains.Order;
+﻿using SampleApp.Ordering.Domains.Order;
 using System.Data.Entity;
 
-namespace SampleApp.Business.DbContext
+namespace SampleApp.Ordering.DbContext
 {
     public interface IOrderingContext
     {

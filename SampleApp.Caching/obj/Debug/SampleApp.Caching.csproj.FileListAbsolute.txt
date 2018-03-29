@@ -10,3 +10,9 @@ C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.cs
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.csproj.CoreCompileInputs.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.pdb
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Caching\bin\Debug\SampleApp.Caching.dll
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Caching\bin\Debug\SampleApp.Caching.pdb
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.csprojResolveAssemblyReference.cache
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.csproj.CoreCompileInputs.cache
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.dll
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Caching\obj\Debug\SampleApp.Caching.pdb
