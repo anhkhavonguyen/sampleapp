@@ -13,7 +13,7 @@ namespace SampleApp.Core.Repositories
         public Repository(SimpleAppContext simpleAppContext)
         {
             _simpleAppContext = simpleAppContext;
-            _dbSet = simpleAppContext.Set<T>();
+            _dbSet = _simpleAppContext.Set<T>();
         }
 
         public IEnumerable<T> GetAll()

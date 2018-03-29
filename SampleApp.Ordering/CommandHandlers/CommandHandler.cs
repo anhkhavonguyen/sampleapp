@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Ordering.Command
+namespace SampleApp.Business.CommandHandlers
 {
-    public class CreateOrderCommand : ICommand
+    public class CommandHandler<TCommand>  where TCommand : ICommand
     {
     }
 }

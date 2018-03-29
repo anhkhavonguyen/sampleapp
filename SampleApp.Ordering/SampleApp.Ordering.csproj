@@ -129,12 +129,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandHandlers\CommandHandler.cs" />
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="DbContext\IOrderingContext.cs" />
+    <Compile Include="Domains\Order\Order.cs" />
     <Compile Include="OrderingModule.cs" />
     <Compile Include="CommandHandlers\IOrderCommandHandler.cs" />
     <Compile Include="CommandHandlers\OrderCommandHandler.cs" />
     <Compile Include="Command\CreateOrderCommand.cs" />
     <Compile Include="DbContext\OrderingContext.cs" />
-    <Compile Include="Domains\Order\QueryModel\Order.cs" />
+    <Compile Include="Domains\Order\QueryModel\QueryOrder.cs" />
     <Compile Include="Infrastructure\Repositories\Repository.cs" />
     <Compile Include="Infrastructure\UnitOfWork\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

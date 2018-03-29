@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SampleApp.Ordering.Domains.Order.QueryModel
 {
-    public class Order
+    public class QueryOrder
     {
+        public int Id { get; set; }
     }
 }

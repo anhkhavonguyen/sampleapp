@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SampleApp.Ordering.Domains.Order;
+using SampleApp.Ordering.Infrastructure.Repositories;
 
 namespace SampleApp.Ordering.Infrastructure.UnitOfWork
 {
     public interface IUnitOfWork
     {
+        int Commit();
+
+        IRepository<Order> OrderRepository { get; }
     }
 }

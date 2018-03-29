@@ -1,12 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SampleApp.Business.DbContext;
+using SampleApp.Business.Domains.Order;
+using SampleApp.Ordering.Domains.Order.QueryModel;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration;
 
 namespace SampleApp.Ordering.DbContext
 {
-    public class OrderingContext
+    public class OrderingContext : System.Data.Entity.DbContext, IOrderingContext
     {
+        public OrderingContext() : base("data source=.;initial catalog=SimpleApp;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework")
+        {
+
+        }
+
+        public virtual DbSet<Order> Orders { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
+
+        private void SetUp(EntityTypeConfiguration<Order> entityTypeConfiguration)
+        {
+
+        }
     }
 }
