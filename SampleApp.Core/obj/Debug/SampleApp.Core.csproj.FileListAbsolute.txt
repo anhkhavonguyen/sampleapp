@@ -26,6 +26,8 @@ E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.xml
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.dll
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.pdb
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csprojResolveAssemblyReference.cache
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\bin\Debug\SampleApp.Core.dll.config
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\bin\Debug\SampleApp.Core.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\bin\Debug\SampleApp.Core.pdb
@@ -42,5 +44,3 @@ C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csprojRe
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.pdb
-E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csprojResolveAssemblyReference.cache
-E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache

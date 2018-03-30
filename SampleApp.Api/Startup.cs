@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SampleApp.Core;
 using SampleApp.Logging;
+using SampleApp.Ordering;
 
 namespace SampleApp.Api
 {
@@ -29,6 +30,7 @@ namespace SampleApp.Api
             var builder = new ContainerBuilder();
             builder.RegisterModule<CoreModule>();
             builder.RegisterModule<LoggingModule>();
+            builder.RegisterModule<OrderingModule>();
 
             builder.Populate(services);
 

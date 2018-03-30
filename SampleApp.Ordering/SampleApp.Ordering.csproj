@@ -59,6 +59,7 @@
     <Compile Include="DbContext\IOrderingContext.cs" />
     <Compile Include="Domains\Order\CommandModel\CommandOrder.cs" />
     <Compile Include="Domains\Order\Order.cs" />
+    <Compile Include="Exceptions\BaseException.cs" />
     <Compile Include="Message\AddOrderRequest.cs" />
     <Compile Include="OrderingModule.cs" />
     <Compile Include="CommandHandlers\IOrderCommandHandler.cs" />
