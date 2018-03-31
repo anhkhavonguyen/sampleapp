@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SampleApp.Core.Services
 {
-    public class ArticleService
+    public class ArticleService : IArticleService
     {
+        public ArticleService()
+        {
+
+        }
     }
 }
