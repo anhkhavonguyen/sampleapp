@@ -18,6 +18,7 @@ namespace SampleApp.Core
             base.Load(builder);
             builder.RegisterGeneric(typeof(Repositories.Repository<>)).As(typeof(Repositories.IRepository<>)).InstancePerLifetimeScope();
             builder.RegisterType<UserService>().As<IUserService>().InstancePerLifetimeScope();
+            builder.RegisterType<ArticleService>().As<IArticleService>().InstancePerLifetimeScope();
             builder.RegisterType<UnitOfWork.UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
         }
     }

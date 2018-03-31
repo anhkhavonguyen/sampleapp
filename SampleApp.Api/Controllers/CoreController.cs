@@ -13,13 +13,15 @@ namespace SampleApp.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/Users")]
-    public class UsersController : Controller
+    public class CoreController : Controller
     {
         private IUserService _userService;
-        public UsersController(IUserService userService)
+        public CoreController(IUserService userService)
         {
             _userService = userService;
         }
+
+        #region User
 
         [HttpGet]
         public GetUsersResponse Get()
@@ -47,5 +49,9 @@ namespace SampleApp.Api.Controllers
             _userService.Delete(user);
             return Ok();
         }
+
+        #endregion
+
+
     }
 }

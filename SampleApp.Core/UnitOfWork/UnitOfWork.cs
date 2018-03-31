@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SampleApp.Core.Models;
 
 namespace SampleApp.Core.UnitOfWork
 {
@@ -12,6 +13,9 @@ namespace SampleApp.Core.UnitOfWork
     {
         private SimpleAppContext _simpleAppContext = new SimpleAppContext();
         private Repository<User> userRepository;
+        private Repository<Article> articleRepository;
+        private Repository<Category> categoryRepository;
+
         public UnitOfWork()
         {
         }
@@ -25,6 +29,30 @@ namespace SampleApp.Core.UnitOfWork
                     userRepository = new Repository<User>(_simpleAppContext);
                 }
                 return userRepository;
+            }
+        }
+
+        public IRepository<Article> ArticleRepository
+        {
+            get
+            {
+                if (articleRepository == null)
+                {
+                    articleRepository = new Repository<Article>(_simpleAppContext);
+                }
+                return articleRepository;
+            }
+        }
+
+        public IRepository<Category> CategoryRepository
+        {
+            get
+            {
+                if (categoryRepository == null)
+                {
+                    categoryRepository = new Repository<Category>(_simpleAppContext);
+                }
+                return categoryRepository;
             }
         }
 

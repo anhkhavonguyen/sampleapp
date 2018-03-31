@@ -1,4 +1,5 @@
 ﻿using SampleApp.Core.DbContext;
+using SampleApp.Core.Models;
 using SampleApp.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -13,5 +14,7 @@ namespace SampleApp.Core.UnitOfWork
         int Commit();
 
         IRepository<User> UserRepository { get; }
+        IRepository<Article> ArticleRepository { get; }
+        IRepository<Category> CategoryRepository { get; }
     }
 }
