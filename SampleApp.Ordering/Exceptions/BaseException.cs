@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Exceptions
+namespace SampleApp.Ordering.Exceptions
 {
     public abstract class BaseException : Exception
     {

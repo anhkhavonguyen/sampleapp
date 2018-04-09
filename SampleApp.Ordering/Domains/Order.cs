@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Domains.Order.CommandModel
+namespace SampleApp.Ordering.Domains
 {
-    public class CommandOrder
+    public class Order
     {
     }
 }

@@ -54,21 +54,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommandHandlers\CommandHandler.cs" />
-    <Compile Include="Command\ICommand.cs" />
     <Compile Include="DbContext\IOrderingContext.cs" />
-    <Compile Include="Domains\Order\CommandModel\CommandOrder.cs" />
-    <Compile Include="Domains\Order\Order.cs" />
+    <Compile Include="Domains\Order.cs" />
     <Compile Include="Exceptions\BaseException.cs" />
     <Compile Include="Message\AddOrderRequest.cs" />
     <Compile Include="OrderingModule.cs" />
-    <Compile Include="CommandHandlers\IOrderCommandHandler.cs" />
-    <Compile Include="CommandHandlers\OrderCommandHandler.cs" />
-    <Compile Include="Command\CreateOrderCommand.cs" />
     <Compile Include="DbContext\OrderingContext.cs" />
-    <Compile Include="Domains\Order\QueryModel\QueryOrder.cs" />
     <Compile Include="Infrastructure\Repositories\Repository.cs" />
     <Compile Include="Infrastructure\UnitOfWork\UnitOfWork.cs" />
+    <Compile Include="Ordering\Command\CreateOrderCommand\CreateOrderCommand.cs" />
+    <Compile Include="Ordering\Command\CreateOrderCommand\CreateOrderCommandHandler.cs" />
+    <Compile Include="Ordering\Command\CreateOrderCommand\ICreateOrderCommandHandler.cs" />
+    <Compile Include="Ordering\Queries\GetOrder\GetOrderQuery.cs" />
+    <Compile Include="Ordering\Queries\GetOrder\IGetOrderQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Infrastructure\Repositories\IRepository.cs" />
     <Compile Include="Services\IOrderService.cs" />

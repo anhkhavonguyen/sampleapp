@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Ordering.Domains.Order
+namespace SampleApp.Business.Ordering.Command.CreateOrderCommand
 {
-    public class Order
+    public class CreateOrderCommand
     {
-        public int Id { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using SampleApp.Ordering.Domains.Order;
+﻿using SampleApp.Ordering.Domains;
 using SampleApp.Ordering.Infrastructure.Repositories;
 
 namespace SampleApp.Ordering.Infrastructure.UnitOfWork

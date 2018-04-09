@@ -1,5 +1,4 @@
 ﻿using Autofac;
-using SampleApp.Ordering.CommandHandlers;
 using SampleApp.Ordering.Services;
 using System;
 using System.Collections.Generic;
@@ -14,7 +13,6 @@ namespace SampleApp.Ordering
         protected override void Load(ContainerBuilder builder)
         {
             base.Load(builder);
-            builder.RegisterType<OrderCommandHandler>().As<IOrderCommandHandler>().InstancePerLifetimeScope();
             builder.RegisterType<OrderService>().As<IOrderService>().InstancePerLifetimeScope();
         }
     }

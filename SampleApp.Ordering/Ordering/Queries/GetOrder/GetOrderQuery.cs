@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Ordering.Domains.Order.QueryModel
+namespace SampleApp.Business.Ordering.Queries.GetOrder
 {
-    public class QueryOrder
+    public class GetOrderQuery
     {
-        public int Id { get; set; }
     }
 }

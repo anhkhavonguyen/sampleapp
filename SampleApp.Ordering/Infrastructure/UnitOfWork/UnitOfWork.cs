@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SampleApp.Ordering.Domains.Order;
 using SampleApp.Ordering.DbContext;
 using SampleApp.Ordering.Infrastructure.Repositories;
+using SampleApp.Ordering.Domains;
 
 namespace SampleApp.Ordering.Infrastructure.UnitOfWork
 {

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Ordering.Message
+namespace SampleApp.Business.Ordering.Command.CreateOrderCommand
 {
-    public class AddOrderRequest
+    public class CreateOrderCommandHandler
     {
-        public string UserId { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using SampleApp.Ordering.Domains.Order;
+﻿using SampleApp.Ordering.Domains;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 

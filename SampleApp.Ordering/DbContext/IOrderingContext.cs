@@ -1,4 +1,4 @@
-﻿using SampleApp.Ordering.Domains.Order;
+﻿using SampleApp.Ordering.Domains;
 using System.Data.Entity;
 
 namespace SampleApp.Ordering.DbContext

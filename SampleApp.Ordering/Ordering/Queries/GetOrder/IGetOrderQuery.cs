@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Command
+namespace SampleApp.Business.Ordering.Queries.GetOrder
 {
-    public interface ICommand
+    public class IGetOrderQuery
     {
     }
 }
