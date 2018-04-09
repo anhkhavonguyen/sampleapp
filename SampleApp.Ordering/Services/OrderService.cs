@@ -1,31 +1,25 @@
-﻿using SampleApp.Business.Ordering.Command.CreateOrderCommand;
-using SampleApp.Ordering.Infrastructure.UnitOfWork;
+﻿using SampleApp.Ordering.Domains;
 using SampleApp.Ordering.Message;
+using SampleApp.Ordering.Queries.GetOrder;
 
 namespace SampleApp.Ordering.Services
 {
     public class OrderService : IOrderService
     {
-        private UnitOfWork _unitOfWork;
-        public OrderService(UnitOfWork unitOfWork)
+        private GetOrderQuery _getOrderQuery;
+        public OrderService(GetOrderQuery getOrderQuery)
         {
-            _unitOfWork = unitOfWork;
+            _getOrderQuery = getOrderQuery;
         }
 
         public void CreateOrder(AddOrderRequest request)
         {
-            //var command = new CreateOrderCommand();
-            //command.UserId = request.UserId;
-            //_orderCommandHandler.CreateOrder(command);
+           
         }
 
-        //public QueryOrder GetOrderById(int id)
-        //{
-        //    var order = _unitOfWork.OrderRepository.GetById(id);
-        //    return new QueryOrder()
-        //    {
-        //        Id = order.Id
-        //    };
-        //}
+        public Order GetOrder(int id)
+        {
+            return _getOrderQuery.GetOrder(id);
+        }
     }
 }

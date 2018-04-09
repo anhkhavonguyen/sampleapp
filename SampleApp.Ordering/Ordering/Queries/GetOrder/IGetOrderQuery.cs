@@ -1,12 +1,14 @@
-﻿using System;
+﻿using SampleApp.Ordering.Domains;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Business.Ordering.Queries.GetOrder
+namespace SampleApp.Ordering.Queries.GetOrder
 {
-    public class IGetOrderQuery
+    public interface IGetOrderQuery
     {
+        Order GetOrder(int id); 
     }
 }
