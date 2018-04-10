@@ -18,6 +18,7 @@ namespace SampleApp.Core.DbContext
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            Database.SetInitializer<SimpleAppContext>(null);
             base.OnModelCreating(modelBuilder);
             Setup(modelBuilder.Entity<User>());
             Setup(modelBuilder.Entity<Article>());

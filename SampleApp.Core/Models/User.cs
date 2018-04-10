@@ -21,6 +21,6 @@ namespace SampleApp.Core.DbContext
 
         public string Password { get; set; }
 
-        public int Role { get; set; }
+        public int? Role { get; set; }
     }
 }
