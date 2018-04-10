@@ -12,7 +12,7 @@ using SampleApp.Core.UnitOfWork;
 namespace SampleApp.Api.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Users")]
+    [Route("api/core")]
     public class CoreController : Controller
     {
         private IUserService _userService;

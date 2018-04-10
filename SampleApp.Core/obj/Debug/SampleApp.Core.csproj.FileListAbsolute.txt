@@ -42,5 +42,6 @@ C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.xml
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\bin\Debug\EntityFramework.SqlServer.xml
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csprojResolveAssemblyReference.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CoreCompileInputs.cache
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.csproj.CopyComplete
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Core\obj\Debug\SampleApp.Core.pdb

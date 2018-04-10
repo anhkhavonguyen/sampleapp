@@ -8,5 +8,7 @@ namespace SampleApp.Business.Ordering.Command.CreateOrderCommand
 {
     public class CreateOrderCommand
     {
+        public int UserId { get; set; }
+        public string Address { get; set; }
     }
 }

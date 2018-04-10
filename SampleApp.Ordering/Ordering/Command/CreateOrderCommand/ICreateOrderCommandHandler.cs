@@ -8,5 +8,6 @@ namespace SampleApp.Business.Ordering.Command.CreateOrderCommand
 {
     public interface ICreateOrderCommandHandler
     {
+        void Execute(CreateOrderCommand command);
     }
 }
