@@ -6,7 +6,10 @@ Project try to follow microservice architecture style and using Angular at clien
 Currently there are 2 main domains that we can develop 2 microservice.
 
 ### Core domain
-The core domain use the simple CRUD pattern with core entity which can use by all systems.
+The core domain apply the simple CRUD pattern using relational database like SQL Server and Entity framework.
 
-### Business domain
-The business domain with CQRS pattern which aim to the complex bussiness like ordering...
+### Ordering domain
+The ordering domain with CQRS pattern which aim to the complex bussiness like ordering.
+
+### Sale domain
+The sale domain apply the simple CRUD pattern using MongoDB for getting the performance of NoSQL.
