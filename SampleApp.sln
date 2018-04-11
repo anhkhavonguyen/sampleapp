@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sale", "Sale", "{4A5AC90D-8545-4236-B6D9-BB33A3E573C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Sale", "SampleApp.Sale\SampleApp.Sale.csproj", "{B513A62D-C886-44B6-A7F4-D99D0FDE5D6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,9 +60,16 @@ Global
 		{A6B9A094-6A04-4B8F-84A7-F7C4130CF72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6B9A094-6A04-4B8F-84A7-F7C4130CF72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6B9A094-6A04-4B8F-84A7-F7C4130CF72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B513A62D-C886-44B6-A7F4-D99D0FDE5D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B513A62D-C886-44B6-A7F4-D99D0FDE5D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B513A62D-C886-44B6-A7F4-D99D0FDE5D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B513A62D-C886-44B6-A7F4-D99D0FDE5D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B513A62D-C886-44B6-A7F4-D99D0FDE5D6B} = {4A5AC90D-8545-4236-B6D9-BB33A3E573C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2383072A-0C77-43F8-92D4-A9C080B31536}
