@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SampleApp.Core;
 using SampleApp.Logging;
 using SampleApp.Ordering;
+using SampleApp.Sale;
 
 namespace SampleApp.Api
 {
@@ -31,6 +32,7 @@ namespace SampleApp.Api
             builder.RegisterModule<CoreModule>();
             builder.RegisterModule<LoggingModule>();
             builder.RegisterModule<OrderingModule>();
+            builder.RegisterModule<SaleModule>();
 
             builder.Populate(services);
 
