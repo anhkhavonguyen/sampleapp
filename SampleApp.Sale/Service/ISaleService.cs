@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SampleApp.Sale.Message;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace SampleApp.Sale.Service
 {
     public interface ISaleService
     {
+        List<ProductViewModel> GetProducts();
     }
 }

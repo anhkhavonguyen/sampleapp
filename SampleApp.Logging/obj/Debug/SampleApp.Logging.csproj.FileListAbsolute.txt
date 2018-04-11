@@ -22,7 +22,6 @@ C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.SqlS
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\Autofac.xml
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.xml
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.SqlServer.xml
-C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csprojResolveAssemblyReference.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CoreCompileInputs.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CopyComplete
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll

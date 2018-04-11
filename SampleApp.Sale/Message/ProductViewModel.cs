@@ -6,13 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SampleApp.Sale.Domains
+namespace SampleApp.Sale.Message
 {
-    public class Product
+    public class ProductViewModel
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-        public string Name { get; set; }
+        public string ProductName { get; set; }
     }
 }
