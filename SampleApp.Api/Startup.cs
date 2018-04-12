@@ -27,6 +27,15 @@ namespace SampleApp.Api
         {
             services.AddMvc();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    pb => pb.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
+
             //Register Container builder using Autofac
             var builder = new ContainerBuilder();
             builder.RegisterModule<CoreModule>();
@@ -50,6 +59,7 @@ namespace SampleApp.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("CorsPolicy");
             app.UseMvc();
         }
     }

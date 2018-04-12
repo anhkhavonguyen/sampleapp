@@ -14,7 +14,9 @@ export const ROUTES: RouteInfo[] = [
     { path: 'typography', title: 'Typography',  icon:'library_books', class: '' },
     { path: 'icons', title: 'Icons',  icon:'bubble_chart', class: '' },
     { path: 'maps', title: 'Maps',  icon:'location_on', class: '' },
-    { path: 'notifications', title: 'Notifications',  icon:'notifications', class: '' },
+    { path: 'notifications', title: 'Notifications', icon: 'notifications', class: '' },
+    { path: 'users-list', title: 'Users List', icon: 'content_paste', class: '' },
+    { path: 'articles-list', title: 'Articles List', icon: 'content_paste', class: '' },
     { path: 'upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
 ];
 

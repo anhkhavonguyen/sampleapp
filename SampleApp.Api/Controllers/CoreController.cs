@@ -36,7 +36,7 @@ namespace SampleApp.Api.Controllers
             return Ok();
         }
 
-        [HttpPost]
+        [HttpPut]
         public IActionResult Edit(User user)
         {
             _userService.Edit(user);

@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="src\app\container\articles-list\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

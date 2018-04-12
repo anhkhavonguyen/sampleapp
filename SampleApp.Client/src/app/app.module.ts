@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
@@ -17,6 +18,8 @@ import { IconsComponent } from './icons/icons.component';
 import { MapsComponent } from './maps/maps.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import { UpgradeComponent } from './upgrade/upgrade.component';
+import { UsersListComponent } from 'app/container/users-list/users-list.component';
+import { UsersListService } from 'app/container/users-list/users-list.service';
 
 @NgModule({
   declarations: [
@@ -29,17 +32,18 @@ import { UpgradeComponent } from './upgrade/upgrade.component';
     MapsComponent,
     NotificationsComponent,
     UpgradeComponent,
-
+    UsersListComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     ComponentsModule,
-RouterModule,
+    HttpClientModule,
+    RouterModule,
     AppRoutingModule
   ],
-  providers: [],
+    providers: [UsersListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -26,3 +26,4 @@ C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.cs
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CopyComplete
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.pdb
+C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csprojResolveAssemblyReference.cache
