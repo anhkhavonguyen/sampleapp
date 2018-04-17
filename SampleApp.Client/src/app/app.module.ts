@@ -20,6 +20,8 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { UpgradeComponent } from './upgrade/upgrade.component';
 import { UsersListComponent } from 'app/container/users-list/users-list.component';
 import { UsersListService } from 'app/container/users-list/users-list.service';
+import { ArticleListComponent } from "app/container/articles-list/articles-list.component";
+import { ArticleListService } from "app/container/articles-list/articles-list.service";
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { UsersListService } from 'app/container/users-list/users-list.service';
     MapsComponent,
     NotificationsComponent,
     UpgradeComponent,
-    UsersListComponent
+    UsersListComponent,
+    ArticleListComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,7 @@ import { UsersListService } from 'app/container/users-list/users-list.service';
     RouterModule,
     AppRoutingModule
   ],
-    providers: [UsersListService],
+  providers: [UsersListService, ArticleListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
