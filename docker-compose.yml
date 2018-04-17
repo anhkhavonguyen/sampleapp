@@ -1,4 +1,9 @@
 FROM microsoft/dotnet-framework:4.6.2
 WORKDIR /app
-COPY ./SampleApp.Api/bin/Release/net462 .
+
+COPY . 'C:\\build\\'
+WORKDIR 'C:\\build\\'
+
+RUN ["C:\\Program Files (x86)\\MSBuild\\12.0\\Bin\\msbuild.exe", "C:\\build\\SampleApp.Api"]
+
 ENTRYPOINT ["dotnetapp-4.6.2.exe"]
