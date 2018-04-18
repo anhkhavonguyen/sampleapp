@@ -1,9 +1,9 @@
-﻿using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration;
-
-namespace SampleApp.Logging.DbContext
+﻿namespace SampleApp.Logging.DbContext
 {
-    public class LoggingSimpleAppDbContext : System.Data.Entity.DbContext
+    using System.Data.Entity;
+    using System.Data.Entity.ModelConfiguration;
+
+    public class LoggingSimpleAppDbContext : DbContext
     {
         public virtual DbSet<BaseProgramLog> BaseProgramLogs { get; set; }
 
