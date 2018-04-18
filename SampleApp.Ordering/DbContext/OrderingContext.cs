@@ -1,10 +1,9 @@
-﻿using SampleApp.Ordering.Domains;
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration;
-
-namespace SampleApp.Ordering.DbContext
+﻿namespace SampleApp.Ordering.DbContext
 {
-    public class OrderingContext : System.Data.Entity.DbContext, IOrderingContext
+    using SampleApp.Ordering.Domains;
+    using System.Data.Entity;
+
+    public partial class OrderingContext : DbContext, IOrderingContext
     {
         public OrderingContext() : base("data source=.;initial catalog=SimpleApp;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework")
         {
@@ -16,11 +15,6 @@ namespace SampleApp.Ordering.DbContext
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-        }
-
-        private void SetUp(EntityTypeConfiguration<Order> entityTypeConfiguration)
-        {
-
         }
     }
 }
