@@ -3,7 +3,7 @@
     using System.Data.Entity;
     using System.Data.Entity.ModelConfiguration;
 
-    public class LoggingSimpleAppDbContext : DbContext
+    public class LoggingSimpleAppDbContext : DbContext, ILoggingSimpleAppDbContext
     {
         public virtual DbSet<BaseProgramLog> BaseProgramLogs { get; set; }
 
