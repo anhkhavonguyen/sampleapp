@@ -562,5 +562,4 @@ namespace Chartist {
 var Chartist: Chartist.ChartistStatic;
 
 export = Chartist;
-export as namespace Chartist;
 }
