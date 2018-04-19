@@ -11,8 +11,6 @@ E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Lo
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.pdb
 E:\WORKING\Coding\BackEnd\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csprojResolveAssemblyReference.cache
-E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csprojResolveAssemblyReference.cache
-E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CoreCompileInputs.cache
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.dll.config
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.pdb
@@ -27,3 +25,16 @@ C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.cs
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CopyComplete
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll
 C:\KHAVNA\Project\SimpleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.pdb
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.dll.config
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.dll
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\SampleApp.Logging.pdb
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\Autofac.dll
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.dll
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.SqlServer.dll
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\Autofac.xml
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.xml
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.SqlServer.xml
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csprojResolveAssemblyReference.cache
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CoreCompileInputs.cache
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.pdb
