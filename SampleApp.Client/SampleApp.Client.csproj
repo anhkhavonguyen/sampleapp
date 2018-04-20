@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="src\app\components\session\log-out\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

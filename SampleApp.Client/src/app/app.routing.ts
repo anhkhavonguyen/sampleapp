@@ -12,6 +12,8 @@ import { IconsComponent } from 'app/container/icons/icons.component';
 import { MapsComponent } from 'app/container/maps/maps.component';
 import { UpgradeComponent } from 'app/container/upgrade/upgrade.component';
 import { NotificationsComponent } from 'app/container/notifications/notifications.component';
+import { HomeComponent } from 'app/home/home.component';
+import { AuthGuard } from 'app/shared/services/auth.guard';
 
 const routes: Routes = [
     { path: 'dashboard', component: DashboardComponent },
@@ -24,7 +26,8 @@ const routes: Routes = [
     { path: 'upgrade', component: UpgradeComponent },
     { path: 'users-list', component: UsersListComponent },
     { path: 'articles-list', component: ArticleListComponent },
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full' }
+    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+    { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
 ];
 
 @NgModule({
