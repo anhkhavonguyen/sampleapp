@@ -2,17 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule, } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
-
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { UserProfileComponent } from './user-profile/user-profile.component';
-import { TableListComponent } from './table-list/table-list.component';
-import { TypographyComponent } from './typography/typography.component';
-import { IconsComponent } from './icons/icons.component';
-import { MapsComponent } from './maps/maps.component';
-import { NotificationsComponent } from './notifications/notifications.component';
-import { UpgradeComponent } from './upgrade/upgrade.component';
 import { UsersListComponent } from 'app/container/users-list/users-list.component';
 import { ArticleListComponent } from "app/container/articles-list/articles-list.component";
+import { DashboardComponent } from 'app/container/dashboard/dashboard.component';
+import { TypographyComponent } from 'app/container/typography/typography.component';
+import { UserProfileComponent } from 'app/container/user-profile/user-profile.component';
+import { TableListComponent } from 'app/container/table-list/table-list.component';
+import { IconsComponent } from 'app/container/icons/icons.component';
+import { MapsComponent } from 'app/container/maps/maps.component';
+import { UpgradeComponent } from 'app/container/upgrade/upgrade.component';
+import { NotificationsComponent } from 'app/container/notifications/notifications.component';
 
 const routes: Routes = [
     { path: 'dashboard', component: DashboardComponent },
