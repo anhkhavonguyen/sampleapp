@@ -1,9 +1,8 @@
-FROM microsoft/dotnet-framework:4.6.2
-WORKDIR /app
+version: '3'
 
-COPY . 'C:\\build\\'
-WORKDIR 'C:\\build\\'
-
-RUN ["C:\\Program Files (x86)\\MSBuild\\12.0\\Bin\\msbuild.exe", "C:\\build\\SampleApp.Api"]
-
-ENTRYPOINT ["dotnetapp-4.6.2.exe"]
+services:
+  sampleapp.sale.api:
+    image: sampleappsaleapi
+    build:
+      context: .
+      dockerfile: SampleApp.Sale.Api\Dockerfile

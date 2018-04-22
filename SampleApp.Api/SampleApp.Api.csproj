@@ -30,7 +30,6 @@
     <ProjectReference Include="..\SampleApp.Core\SampleApp.Core.csproj" />
     <ProjectReference Include="..\SampleApp.Logging\SampleApp.Logging.csproj" />
     <ProjectReference Include="..\SampleApp.Ordering\SampleApp.Ordering.csproj" />
-    <ProjectReference Include="..\SampleApp.Sale\SampleApp.Sale.csproj" />
   </ItemGroup>
 
 </Project>

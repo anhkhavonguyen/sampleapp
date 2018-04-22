@@ -1,4 +1,5 @@
 ﻿import { Component, OnInit } from '@angular/core';
+import { UserModel } from "app/container/users-list/users-list.service";
 
 
 @Component({
@@ -9,8 +10,10 @@
 
 export class HomeComponent implements OnInit {
 
-    constructor() {
+    currentUser: UserModel;
 
+    constructor() {
+        this.currentUser = JSON.parse(localStorage.getItem('currentUser'));
     }
 
     ngOnInit() {

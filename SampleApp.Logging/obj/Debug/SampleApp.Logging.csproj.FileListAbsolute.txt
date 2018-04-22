@@ -34,7 +34,7 @@ E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\EntityFramew
 E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\Autofac.xml
 E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.xml
 E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\bin\Debug\EntityFramework.SqlServer.xml
-E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csprojResolveAssemblyReference.cache
 E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CoreCompileInputs.cache
+E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.csproj.CopyComplete
 E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.dll
 E:\WORKING\Coding\BackEnd\SampleAppRepo\SampleApp.Logging\obj\Debug\SampleApp.Logging.pdb

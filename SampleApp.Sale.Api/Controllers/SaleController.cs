@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using SampleApp.Sale.Message;
 using SampleApp.Sale.Service;
 
-namespace SampleApp.Api.Controllers
+namespace SampleApp.Sale.Api.Controllers
 {
-    [Produces("application/json")]
-    [Route("api/Sale")]
+    [Route("api/[controller]")]
     public class SaleController : Controller
     {
         private ISaleService _saleService;

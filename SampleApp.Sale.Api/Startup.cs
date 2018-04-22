@@ -5,11 +5,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SampleApp.Core;
-using SampleApp.Logging;
-using SampleApp.Ordering;
 
-namespace SampleApp.Api
+namespace SampleApp.Sale.Api
 {
     public class Startup
     {
@@ -37,9 +34,7 @@ namespace SampleApp.Api
 
             //Register Container builder using Autofac
             var builder = new ContainerBuilder();
-            builder.RegisterModule<CoreModule>();
-            builder.RegisterModule<LoggingModule>();
-            builder.RegisterModule<OrderingModule>();
+            builder.RegisterModule<SaleModule>();
 
             builder.Populate(services);
 
