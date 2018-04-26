@@ -27,17 +27,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{593A925A-507
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FaceDetection", "FaceDetection", "{16A90A18-8DDF-44E9-BC6B-F7D7170A2651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Sale.Api", "SampleApp.Sale.Api\SampleApp.Sale.Api.csproj", "{B3C222E2-CF9B-486A-8D64-2B1487F0906E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Sale.Api", "SampleApp.Sale.Api\SampleApp.Sale.Api.csproj", "{B3C222E2-CF9B-486A-8D64-2B1487F0906E}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0431D76A-1A11-485A-8148-34474BF61486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.FaceDetection", "SampleApp.FaceDetection\SampleApp.FaceDetection.csproj", "{2B31C330-36E8-45A7-BB01-CEBD9FAA13DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.FaceDetection", "SampleApp.FaceDetection\SampleApp.FaceDetection.csproj", "{2B31C330-36E8-45A7-BB01-CEBD9FAA13DC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.FaceDetection.Api", "SampleApp.FaceDetection.Api\SampleApp.FaceDetection.Api.csproj", "{99AD18C5-F4BD-41D4-90E0-D7BDD045C51E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.FaceDetection.Api", "SampleApp.FaceDetection.Api\SampleApp.FaceDetection.Api.csproj", "{99AD18C5-F4BD-41D4-90E0-D7BDD045C51E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{4D3809E1-80F1-4A92-8314-5279635A1A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Ordering.Api", "SampleApp.Ordering.Api\SampleApp.Ordering.Api.csproj", "{5E24423E-A457-4ABB-BA71-657F5D2CE8B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Ordering.Api", "SampleApp.Ordering.Api\SampleApp.Ordering.Api.csproj", "{5E24423E-A457-4ABB-BA71-657F5D2CE8B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C4FDCBA0-1A48-4187-A1AE-BF2E355FA441}"
 EndProject
@@ -83,10 +81,6 @@ Global
 		{B3C222E2-CF9B-486A-8D64-2B1487F0906E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C222E2-CF9B-486A-8D64-2B1487F0906E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C222E2-CF9B-486A-8D64-2B1487F0906E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0431D76A-1A11-485A-8148-34474BF61486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0431D76A-1A11-485A-8148-34474BF61486}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0431D76A-1A11-485A-8148-34474BF61486}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0431D76A-1A11-485A-8148-34474BF61486}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2B31C330-36E8-45A7-BB01-CEBD9FAA13DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B31C330-36E8-45A7-BB01-CEBD9FAA13DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B31C330-36E8-45A7-BB01-CEBD9FAA13DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
