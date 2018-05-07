@@ -1,18 +1,18 @@
 ﻿namespace SampleApp.Ordering.DbContext
 {
     using SampleApp.Ordering.Domains;
-    using System.Data.Entity;
 
-    public partial class OrderingContext : DbContext, IOrderingContext
+    public partial class OrderingContext : System.Data.Entity.DbContext, IOrderingContext
     {
         public OrderingContext() : base("data source=.;initial catalog=SimpleApp;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework")
         {
 
         }
 
-        public virtual DbSet<Order> Orders { get; set; }
+        public virtual System.Data.Entity.DbSet<Order> Orders { get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+
+        protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
         }

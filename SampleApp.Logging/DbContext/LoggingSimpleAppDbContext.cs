@@ -1,11 +1,8 @@
 ﻿namespace SampleApp.Logging.DbContext
 {
-    using System.Data.Entity;
-    using System.Data.Entity.ModelConfiguration;
-
-    public class LoggingSimpleAppDbContext : DbContext, ILoggingSimpleAppDbContext
+    public class LoggingSimpleAppDbContext : System.Data.Entity.DbContext, ILoggingSimpleAppDbContext
     {
-        public virtual DbSet<BaseProgramLog> BaseProgramLogs { get; set; }
+        public virtual System.Data.Entity.DbSet<BaseProgramLog> BaseProgramLogs { get; set; }
 
         public LoggingSimpleAppDbContext():
             base("data source=.;initial catalog=SimpleApp;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework")
@@ -13,13 +10,13 @@
                 
         }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             Setup(modelBuilder.Entity<BaseProgramLog>());
         }
 
-        private void Setup(EntityTypeConfiguration<BaseProgramLog> entityTypeConfiguration)
+        private void Setup(System.Data.Entity.ModelConfiguration.EntityTypeConfiguration<BaseProgramLog> entityTypeConfiguration)
         {
             entityTypeConfiguration
                 .ToTable("BaseProgramLog")

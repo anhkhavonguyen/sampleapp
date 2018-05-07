@@ -1,6 +1,5 @@
 ﻿using SampleApp.Ordering.DbContext;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 
 namespace SampleApp.Ordering.Infrastructure.Repositories
@@ -8,7 +7,7 @@ namespace SampleApp.Ordering.Infrastructure.Repositories
     public class Repository<T> : IRepository<T> where T : class
     {
         private OrderingContext _orderingContext;
-        private IDbSet<T> _dbSet;
+        private System.Data.Entity.IDbSet<T> _dbSet;
 
         public Repository(OrderingContext orderingContext)
         {
@@ -18,7 +17,7 @@ namespace SampleApp.Ordering.Infrastructure.Repositories
 
         public IEnumerable<T> GetAll()
         {
-            return _dbSet.AsEnumerable<T>();
+            return _dbSet.AsEnumerable();
         }
 
         public void Add(T entity)
@@ -33,12 +32,12 @@ namespace SampleApp.Ordering.Infrastructure.Repositories
 
         public void Edit(T entity)
         {
-            _orderingContext.Entry(entity).State = EntityState.Modified;
+            _orderingContext.Entry(entity).State = System.Data.Entity.EntityState.Modified;
         }
 
         public void Delete(T entity)
         {
-            _orderingContext.Entry(entity).State = EntityState.Deleted;
+            _orderingContext.Entry(entity).State = System.Data.Entity.EntityState.Deleted;
         }
     }
 }
